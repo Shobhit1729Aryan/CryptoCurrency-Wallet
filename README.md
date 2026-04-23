@@ -1,7 +1,13 @@
 # Web3 Crypto Wallet - Multi-Chain Blockchain Dapp
 <img width="1900" height="912" alt="image" src="https://github.com/user-attachments/assets/7acfe6f0-2ba5-49d9-9699-16731cda1388" />
-<img width="443" height="763" alt="Screenshot 2026-04-23 142758" src="https://github.com/user-attachments/assets/29bb1ffe-a9d3-4804-ba19-a7c9a9530284" />
-<img width="1256" height="267" alt="Screenshot 2026-04-23 142810" src="https://github.com/user-attachments/assets/f9ca033c-f00e-4c06-a8b4-06437e47946f" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/7acfe6f0-2ba5-49d9-9699-16731cda1388" width="100%" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/29bb1ffe-a9d3-4804-ba19-a7c9a9530284" width="32%" />
+  <img src="https://github.com/user-attachments/assets/f9ca033c-f00e-4c06-a8b4-06437e47946f" width="64%" />
+</p>
 
 
 A decentralized crypto wallet application supporting multiple blockchain networks with transfer capabilities, transaction management, and comprehensive payment history tracking.
