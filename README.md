@@ -1,5 +1,5 @@
 # 🚀 Web3 Crypto Wallet - Multi-Chain Blockchain Dapp
-<img width="871" height="764" alt="Screenshot 2026-04-23 142730" src="https://github.com/user-attachments/assets/68830021-cf48-43d9-abda-69fbb9ea51cf" />
+<img width="1900" height="912" alt="Screenshot 2026-04-23 142657" src="https://github.com/user-attachments/assets/2747fc63-827a-480f-bd81-53f55e17a1f8" />
 <img width="443" height="763" alt="Screenshot 2026-04-23 142758" src="https://github.com/user-attachments/assets/bfece4b5-2418-44e5-bbd9-19e8bd2ea247" />
 <img width="1256" height="267" alt="Screenshot 2026-04-23 142810" src="https://github.com/user-attachments/assets/b3e46a8b-3ed7-4738-be51-18288f337f7b" />
 
