@@ -425,9 +425,10 @@ This project is developed for educational purposes.
 
 For issues, questions, or support:
 
-- 📧 Email: [Your Email]
-- 🐛 [Report Issues](https://github.com/your-repo/issues)
-- 💬 [Discussions](https://github.com/your-repo/discussions)
+- 📧 Email: shobhitaryan2003@gmail.com or tanmayanand840@gmail.com
+- 🐛 [Report Issues](https://github.com/Shobhit1729Aryan/CryptoCurrency-Wallet/issues)
+- 💬 [Discussions](https://github.com/Shobhit1729Aryan/CryptoCurrency-Wallet/discussions)
+
 
 ---
 
