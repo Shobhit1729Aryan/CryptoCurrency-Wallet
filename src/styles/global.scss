@@ -1,0 +1,72 @@
+@import './variables';
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  position: relative;
+  min-height: 100%;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 400;
+  color: $white;
+  background:
+    radial-gradient(circle at 12% 18%, rgba(105, 245, 255, .22) 0, transparent 28%),
+    radial-gradient(circle at 84% 8%, rgba(246, 201, 111, .24) 0, transparent 26%),
+    radial-gradient(circle at 70% 85%, rgba(120, 166, 255, .2) 0, transparent 32%),
+    linear-gradient(135deg, #050816 0%, #0b1026 45%, #161025 100%);
+  background-attachment: fixed;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, .035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, .035) 1px, transparent 1px);
+  background-size: 56px 56px;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, .8), transparent 80%);
+}
+
+h1,
+h2 {
+  font-weight: 600;
+  padding: 0;
+  margin: 0 0 20px;
+}
+
+h1 {
+  font-size: 30px;
+  line-height: 1.3;
+}
+
+h2 {
+  font-size: 25px;
+  line-height: 1.2;
+}
+
+a {
+  color: $stellarCyan;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+main {
+  padding: 0;
+  margin: 48px 0 70px;
+}
+
+::selection {
+  color: $black;
+  background: $stellarCyan;
+}

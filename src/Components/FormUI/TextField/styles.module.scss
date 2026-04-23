@@ -1,0 +1,69 @@
+@import './../../../styles/variables';
+
+.textField {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+
+  label {
+    display: block;
+    font-weight: 600;
+    color: $lightGrey;
+    text-transform: capitalize;
+    padding: 0;
+    margin: 0;
+
+    input {
+      display: block;
+      width: 100%;
+      border: none;
+      color: $white;
+      padding: 14px 16px;
+      margin: 15px 0 0 0;
+      border-radius: 16px;
+      background-color: rgba(255, 255, 255, .07);
+      border: 1px solid rgba(255, 255, 255, .13);
+      box-sizing: border-box;
+      outline: none;
+      @include transition;
+
+      &::placeholder {
+        color: rgba(217, 228, 255, .45);
+      }
+
+      &:focus {
+        border-color: rgba(105, 245, 255, .62);
+        box-shadow: 0 0 0 4px rgba(105, 245, 255, .1);
+        background-color: rgba(255, 255, 255, .1);
+      }
+
+      &:disabled {
+        color: $mutedText;
+        cursor: not-allowed;
+      }
+    }
+  }
+
+  &.invalid {
+    label input {
+      border-color: $red;
+    }
+  }
+
+  .error {
+    display: block;
+    width: 100%;
+    font-size: 12px;
+    line-height: 1;
+    color: $red;
+    font-weight: 400;
+    padding: 10px 0 0;
+    margin: 0;
+  }
+
+  .marginBottom {
+    display: block;
+    margin-bottom: 20px;
+  }
+}

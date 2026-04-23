@@ -1,0 +1,26 @@
+// CSS Grid Default
+$gridMaxWidth: 1265px;
+$gutterPaddingWidth: 10px;
+$nestedGridMargin: 0 -10px;
+
+// colors
+$black: #050816;
+$white: #ffffff;
+$orange: #f6c96f;
+$darkOrange: #e8a934;
+$red: #ff5f7e;
+$lightGrey: #d9e4ff;
+$green: #56f0b5;
+$darkGreen: #1db989;
+$navy: #070b1d;
+$midnight: #10172f;
+$panel: rgba(12, 18, 41, .72);
+$panelBorder: rgba(255, 255, 255, .14);
+$mutedText: #9da9c7;
+$stellarBlue: #78a6ff;
+$stellarCyan: #69f5ff;
+
+@mixin transition {
+  -webkit-transition: all .22s ease-in-out;
+  transition: all .22s ease-in-out;
+}
