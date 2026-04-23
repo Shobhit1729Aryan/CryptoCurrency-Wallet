@@ -1,10 +1,18 @@
-# Web3 Crypto Wallet - Multi-Chain Blockchain Dapp
-<img width="1900" height="912" alt="image" src="https://github.com/user-attachments/assets/7acfe6f0-2ba5-49d9-9699-16731cda1388" />
-<img width="443" height="763" alt="Screenshot 2026-04-23 142758" src="https://github.com/user-attachments/assets/29bb1ffe-a9d3-4804-ba19-a7c9a9530284" />
-<img width="1256" height="267" alt="Screenshot 2026-04-23 142810" src="https://github.com/user-attachments/assets/f9ca033c-f00e-4c06-a8b4-06437e47946f" />
-
+# 🚀 Web3 Crypto Wallet - Multi-Chain Blockchain Dapp
+<img width="1256" height="267" alt="Screenshot 2026-04-23 142810" src="https://github.com/user-attachments/assets/d93ebc9d-fd27-4cec-b4e9-0befe74986a8" />
 
 A decentralized crypto wallet application supporting multiple blockchain networks with transfer capabilities, transaction management, and comprehensive payment history tracking.
+
+## 🎓 Overview
+
+This is a full-stack blockchain application built with **Stellar Testnet** integration using **Freighter wallet**. The application enables users to connect their wallets, view balances, send XLM payments on Stellar, and maintain a complete transaction history stored on-chain.
+
+**Key Features:**
+- Multi-chain support (Stellar & Ethereum)
+- Freighter wallet integration for Stellar transactions
+- Real-time balance tracking
+- Blockchain-based transaction history
+- Smart contract integration for data persistence
 
 ## Features
 
@@ -59,6 +67,34 @@ A decentralized crypto wallet application supporting multiple blockchain network
 - React Scripts (Create React App)
 - Jest & React Testing Library
 - Truffle for contract testing
+
+## 🏗️ Architecture
+
+### System Components
+
+1. **Smart Contract Layer**
+   - Stellar Soroban smart contracts (Rust)
+   - Solidity contracts for Ethereum (optional)
+   - Stores transaction data on-chain
+   - Provides immutable transaction history
+
+2. **Frontend Application (React)**
+   - Wallet connection interface via Freighter
+   - Transaction form with validation
+   - Real-time balance display
+   - Transfer history visualization
+   - Responsive grid-based UI with SCSS modules
+
+3. **Blockchain Integration**
+   - Stellar SDK for XLM transactions
+   - Freighter wallet for account management
+   - Horizon API for data querying
+   - Real-time balance updates
+
+4. **State Management**
+   - React Context API with useReducer
+   - Web3 context for blockchain state
+   - Centralized error handling
 
 ## Project Structure
 
@@ -369,11 +405,23 @@ Contributions welcome! Please:
 5. Push to the branch: `git push origin feature/amazing-feature`
 6. Open a Pull Request
 
-## License
+## 📝 License
 
-[Your License Here]
+This project is developed for educational purposes.
 
-## Support & Contact
+## 👥 Contributors
+
+**Team Members:**
+- Shobhit Aryan
+- Tanmay Anand
+
+**Educational Institution:** Dayananda Sagar College of Engineering
+
+**Course:** Blockchain Development / Web3 Development
+
+## 📞 Support
+
+For issues, questions, or support:
 
 - 📧 Email: [Your Email]
 - 🐛 [Report Issues](https://github.com/your-repo/issues)
@@ -381,4 +429,4 @@ Contributions welcome! Please:
 
 ---
 
-**⚠️ Disclaimer:** This is a development/test application. Use with caution on mainnet. Always thoroughly test on testnet first. Not for production use without security audits.
+**⚠️ Disclaimer:** This is a development/test application for educational purposes. Use with caution on mainnet. Always thoroughly test on testnet first. Not for production use without security audits.
